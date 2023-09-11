@@ -1,0 +1,29 @@
+{
+  "name": "cli-aplikacja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzabelaSwiadkowska/CLI-aplikacja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzabelaSwiadkowska/CLI-aplikacja/issues"
+  },
+  "homepage": "https://github.com/IzabelaSwiadkowska/CLI-aplikacja#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^4.0.2",
+    "uuid": "^9.0.0"
+  }
+}
